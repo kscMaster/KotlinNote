@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a79b31b-b989-4365-992a-e5232f9a665c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YQFyNObdHppFsB4Nl2Ik0KI5Al" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/项目实战" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/项目实战" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/基础" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.filter实战.TestKt">
+    <configuration name="TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin入门" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TestKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="高阶._2_Map集合Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin入门" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="高阶._2_Map集合Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="高阶._4_高阶函数Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin入门" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="高阶._4_高阶函数Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="高阶._5_lambda表达式Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin入门" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="高阶._5_lambda表达式Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="filter实战.TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin入门" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="filter实战.TestKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.filter实战.TestKt" />
+        <item itemvalue="Kotlin.高阶._5_lambda表达式Kt" />
+        <item itemvalue="Kotlin.TestKt" />
+        <item itemvalue="Kotlin.高阶._4_高阶函数Kt" />
+        <item itemvalue="Kotlin.高阶._2_Map集合Kt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a79b31b-b989-4365-992a-e5232f9a665c" name="Default Changelist" comment="" />
+      <created>1582867164066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582867164066</updated>
+      <workItem from="1582867165398" duration="67256000" />
+      <workItem from="1583287348069" duration="5901000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1141" y="254" width="800" height="810" key="#Intentions" timestamp="1583070893474">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state x="1141" y="254" width="800" height="810" key="#Intentions/0.23.2048.1129@0.23.2048.1129" timestamp="1583070893474" />
+    <state x="1267" y="398" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583287446948">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state x="1267" y="398" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2048.1129@0.23.2048.1129" timestamp="1583287446948" />
+    <state x="1311" y="312" key="#com.intellij.ide.util.MemberChooser" timestamp="1583204404468">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state x="1311" y="312" key="#com.intellij.ide.util.MemberChooser/0.23.2048.1129@0.23.2048.1129" timestamp="1583204404468" />
+    <state width="422" height="466" key="DebuggerActiveHint" timestamp="1583289650765">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state width="422" height="466" key="DebuggerActiveHint/0.23.2048.1129@0.23.2048.1129" timestamp="1583289650765" />
+    <state width="972" height="2" key="GridCell.Tab.0.bottom" timestamp="1583296701405">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state width="972" height="2" key="GridCell.Tab.0.bottom/0.23.2048.1129@0.23.2048.1129" timestamp="1583296701405" />
+    <state width="972" height="2" key="GridCell.Tab.0.center" timestamp="1583296701405">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state width="972" height="2" key="GridCell.Tab.0.center/0.23.2048.1129@0.23.2048.1129" timestamp="1583296701405" />
+    <state width="972" height="2" key="GridCell.Tab.0.left" timestamp="1583296701404">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state width="972" height="2" key="GridCell.Tab.0.left/0.23.2048.1129@0.23.2048.1129" timestamp="1583296701404" />
+    <state width="972" height="2" key="GridCell.Tab.0.right" timestamp="1583296701405">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state width="972" height="2" key="GridCell.Tab.0.right/0.23.2048.1129@0.23.2048.1129" timestamp="1583296701405" />
+    <state width="972" height="2" key="GridCell.Tab.1.bottom" timestamp="1583296701406">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state width="972" height="2" key="GridCell.Tab.1.bottom/0.23.2048.1129@0.23.2048.1129" timestamp="1583296701406" />
+    <state width="972" height="2" key="GridCell.Tab.1.center" timestamp="1583296701406">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state width="972" height="2" key="GridCell.Tab.1.center/0.23.2048.1129@0.23.2048.1129" timestamp="1583296701406" />
+    <state width="972" height="2" key="GridCell.Tab.1.left" timestamp="1583296701406">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state width="972" height="2" key="GridCell.Tab.1.left/0.23.2048.1129@0.23.2048.1129" timestamp="1583296701406" />
+    <state width="972" height="2" key="GridCell.Tab.1.right" timestamp="1583296701406">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state width="972" height="2" key="GridCell.Tab.1.right/0.23.2048.1129@0.23.2048.1129" timestamp="1583296701406" />
+    <state x="1197" y="422" key="com.intellij.ide.util.TipDialog" timestamp="1583458921805">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state x="1197" y="422" key="com.intellij.ide.util.TipDialog/0.23.2048.1129@0.23.2048.1129" timestamp="1583458921805" />
+    <state x="714" y="198" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582968117885">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state x="714" y="198" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.2048.1129@0.23.2048.1129" timestamp="1582968117885" />
+    <state x="1206" y="274" key="run.anything.popup" timestamp="1582970350582">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state x="1206" y="274" key="run.anything.popup/0.23.2048.1129@0.23.2048.1129" timestamp="1582970350582" />
+    <state x="1206" y="276" width="670" height="676" key="search.everywhere.popup" timestamp="1583205088033">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state x="1206" y="276" width="670" height="676" key="search.everywhere.popup/0.23.2048.1129@0.23.2048.1129" timestamp="1583205088033" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Kotlin$Kt.ic" NAME="基本数据类型Kt Coverage Results" MODIFIED="1582892880509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
