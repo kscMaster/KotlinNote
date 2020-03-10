@@ -1,6 +1,6 @@
 package 基础
 
-// 求 n的阶乘
+// 阶乘
 fun factorial(x: Int): Int {
     return if (x == 1) x else factorial(x - 1) * x
 }
@@ -11,7 +11,7 @@ tailrec fun factorialTailrec(x: Int, y: Int = 1): Int {
     else factorialTailrec(x - 1, x * y)
 }
 
-// 等差数列，求1..100的和
+// 等差数列
 fun sum(n: Int): Int {
     if (n == 1) return n
     return n + sum(n - 1)
@@ -30,7 +30,7 @@ fun fibonacci(n: Int): Int {
     return fibonacci(n - 1) + fibonacci(n - 2)
 }
 
-// 斐波那契数列，求第N位元素上的值（尾递归优化）ret1就是第n项的值，ret2就是第n+1项的值
+// 斐波那契数列（尾递归优化）ret1就是第n项的值，ret2就是第n+1项的值
 tailrec fun fibonacciTailrec(n: Int, ret1: Int, ret2: Int): Int {
     if (n == 1)
         return ret1;
