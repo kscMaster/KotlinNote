@@ -1,24 +1,35 @@
 package 基础
 
 fun main() {
-    val animals = Animals()
-    animals.voice()
     val dog: Animals = Dog()
     dog.voice()
-    val cat : Cat= Cat()
+    dog.eat()
+    val cat: Cat = Cat()
     cat.voice()
+    cat.eat()
 }
-open  class Animals {
+
+abstract class Animals(var name:String) {
     open fun voice() = println("动物叫的方法")
+    abstract fun eat()
 }
-class Cat : Animals() {
+
+class Cat : Animals("猫") {
     override fun voice() {
-        println("meow")
+        println("${this.name}meow")
+    }
+
+    override fun eat() {
+        println("猫吃饭很挑剔")
     }
 }
-class Dog : Animals() {
+
+class Dog : Animals("狗") {
     override fun voice() {
-        super.voice()
-        println("woof")
+        println("${this.name}woof")
+    }
+
+    override fun eat() {
+        println("狗改不了吃屎")
     }
 }
