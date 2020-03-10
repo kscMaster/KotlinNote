@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a79b31b-b989-4365-992a-e5232f9a665c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/基础/可变长参数数组vararg.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基础/递归到尾递归优化tailrec.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/META-INF/Kotlin入门.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/META-INF/Kotlin入门.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/基础/函数表达式Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/基础/函数表达式Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/基础/基本数据类型Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/基础/基本数据类型Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/基础/具名参数与默认参数.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/基础/具名参数与默认参数.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/基础/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/基础/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/基础/递归Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/基础/递归Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/基础/递归.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <recent name="$PROJECT_DIR$/src/项目实战" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.可变长参数数组varargKt">
+  <component name="RunManager" selected="Kotlin.递归到尾递归优化tailrecKt">
     <configuration name="If_数组Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin入门" />
       <option name="VM_PARAMETERS" />
@@ -97,14 +96,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Loop_RangeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="递归到尾递归优化tailrecKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin入门" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="基础.Loop_RangeKt" />
+      <option name="MAIN_CLASS_NAME" value="基础.递归到尾递归优化tailrecKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.递归到尾递归优化tailrecKt" />
         <item itemvalue="Kotlin.可变长参数数组varargKt" />
         <item itemvalue="Kotlin.具名参数与默认参数Kt" />
         <item itemvalue="Kotlin.函数表达式Kt" />
         <item itemvalue="Kotlin.If_数组Kt" />
-        <item itemvalue="Kotlin.Loop_RangeKt" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +147,7 @@
       <workItem from="1583460512262" duration="377000" />
       <workItem from="1583462364432" duration="895000" />
       <workItem from="1583641023090" duration="591000" />
-      <workItem from="1583663171064" duration="10286000" />
+      <workItem from="1583663171064" duration="14332000" />
     </task>
     <task id="LOCAL-00001" summary="modify README.md file">
       <created>1583460580062</created>
@@ -171,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583808359915</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add section ：可变长参数数组">
+      <created>1583810641848</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583810641848</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +186,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modify README.md file" />
     <MESSAGE value="modify sections" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify sections" />
+    <MESSAGE value="add section ：可变长参数数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="add section ：可变长参数数组" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1141" y="254" width="800" height="810" key="#Intentions" timestamp="1583070893474">
@@ -195,30 +202,30 @@
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
     <state x="1311" y="312" key="#com.intellij.ide.util.MemberChooser/0.23.2048.1129@0.23.2048.1129" timestamp="1583204404468" />
-    <state x="1026" y="190" key="CommitChangelistDialog2" timestamp="1583808358066">
+    <state x="1026" y="190" key="CommitChangelistDialog2" timestamp="1583810641575">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state x="1026" y="190" key="CommitChangelistDialog2/0.23.2048.1129@0.23.2048.1129" timestamp="1583808358066" />
+    <state x="1026" y="190" key="CommitChangelistDialog2/0.23.2048.1129@0.23.2048.1129" timestamp="1583810641575" />
     <state width="422" height="466" key="DebuggerActiveHint" timestamp="1583289650765">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
     <state width="422" height="466" key="DebuggerActiveHint/0.23.2048.1129@0.23.2048.1129" timestamp="1583289650765" />
-    <state width="1186" height="254" key="GridCell.Tab.0.bottom" timestamp="1583810162226">
+    <state width="1186" height="254" key="GridCell.Tab.0.bottom" timestamp="1583815650641">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state width="1186" height="254" key="GridCell.Tab.0.bottom/0.23.2048.1129@0.23.2048.1129" timestamp="1583810162226" />
-    <state width="1186" height="254" key="GridCell.Tab.0.center" timestamp="1583810162225">
+    <state width="1186" height="254" key="GridCell.Tab.0.bottom/0.23.2048.1129@0.23.2048.1129" timestamp="1583815650641" />
+    <state width="1186" height="254" key="GridCell.Tab.0.center" timestamp="1583815650640">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state width="1186" height="254" key="GridCell.Tab.0.center/0.23.2048.1129@0.23.2048.1129" timestamp="1583810162225" />
-    <state width="1186" height="254" key="GridCell.Tab.0.left" timestamp="1583810162225">
+    <state width="1186" height="254" key="GridCell.Tab.0.center/0.23.2048.1129@0.23.2048.1129" timestamp="1583815650640" />
+    <state width="1186" height="254" key="GridCell.Tab.0.left" timestamp="1583815650640">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state width="1186" height="254" key="GridCell.Tab.0.left/0.23.2048.1129@0.23.2048.1129" timestamp="1583810162225" />
-    <state width="1186" height="254" key="GridCell.Tab.0.right" timestamp="1583810162226">
+    <state width="1186" height="254" key="GridCell.Tab.0.left/0.23.2048.1129@0.23.2048.1129" timestamp="1583815650640" />
+    <state width="1186" height="254" key="GridCell.Tab.0.right" timestamp="1583815650641">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state width="1186" height="254" key="GridCell.Tab.0.right/0.23.2048.1129@0.23.2048.1129" timestamp="1583810162226" />
+    <state width="1186" height="254" key="GridCell.Tab.0.right/0.23.2048.1129@0.23.2048.1129" timestamp="1583815650641" />
     <state width="1186" height="299" key="GridCell.Tab.1.bottom" timestamp="1583808862221">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
