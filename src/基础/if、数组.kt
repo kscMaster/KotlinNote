@@ -1,5 +1,7 @@
 package 基础
 
+import java.util.*
+
 fun compareInt(a: Int, b: Int): Int {
     return if (a > b) a else b
 }
@@ -21,7 +23,15 @@ fun main() {
     val list9 = arrayOf("s","t")
     list5[2] = 10
     list5.set(2, 20)
-    list5.forEach { println("${it}") }
+//    list5.forEach { println("${it}") }
+
+    // Map
+    var map = TreeMap<String,String>()
+    map["好"] = "good"
+    map["学习"] = "study"
+    map["天"] = "day"
+    map["向上"] = "up"
+    map.forEach { println(it.key + it.value) }
 }
 
 

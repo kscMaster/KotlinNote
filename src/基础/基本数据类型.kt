@@ -17,6 +17,7 @@ fun main() {
     val maxL: Long = Long.MAX_VALUE
 
     val name = "智能类型推断" // 自动推测数据类型
+    val name2: String = "智能类型推断" // 自动推测数据类型
 
     var num = 0
     var s = "8"
