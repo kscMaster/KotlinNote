@@ -295,7 +295,7 @@ fun add2(a: Int, b: Int) = a + b
 fun hello(name: String = "陌生人", age: Int = 0): String {
     return "hello,$name,你今年$age 岁了"
 }
-fun 进阶.main() {
+fun dsl领域特定语言.main() {
     hello()
     hello(name = "dwad") // 具名参数
     hello(age = 99) // 具名参数
@@ -331,7 +331,7 @@ fun jieCheng(num: Int): Int {
     return num * jieCheng(num-1)
 }
 // 调用
-fun 进阶.main() {
+fun dsl领域特定语言.main() {
     println(jieCheng(6))
 }
 ```
@@ -343,7 +343,7 @@ fun feiBoNaQie(n: Int): Int {
     return feiBoNaQie(n - 1) + feiBoNaQie(n - 2)
 }
 // 调用
-fun 进阶.main() {
+fun dsl领域特定语言.main() {
     println(feiBoNaQie(6))
 }
 ```
@@ -1405,7 +1405,7 @@ val num = 10
 ### 2.3.4. last{}表达式
 ### 2.3.5. binarySearch{}表达式
 
-## 2.4. filter实战
+## 2.4. 高阶函数实战
 ```kotlin
 val list = getPersonRepository() // 获取到数据源
     /* 统计广东省人数 */

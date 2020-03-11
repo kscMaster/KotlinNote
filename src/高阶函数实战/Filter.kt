@@ -1,4 +1,4 @@
-package filter实战
+package 高阶函数实战
 
 import getPersonRepository
 import java.text.SimpleDateFormat
@@ -60,4 +60,7 @@ fun main() {
     for (c in sort) {
         println("根据时间排序后${c.startTime}")
     }
+    /* 统计所有河南人 */
+
+
 }

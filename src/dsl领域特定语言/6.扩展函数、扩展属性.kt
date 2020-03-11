@@ -1,6 +1,4 @@
-package 进阶
-
-import com.sun.org.apache.xpath.internal.operations.Bool
+package dsl领域特定语言
 
 // 可以替代项目开发中的各种utils
 // 不需要添加新的对象就可以添加新的函数

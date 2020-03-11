@@ -2,24 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a79b31b-b989-4365-992a-e5232f9a665c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/函数式编程/函数式编程入门1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/进阶/图片处理.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/高阶函数实战/map函数.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/高阶函数实战/minBy和any.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/META-INF/Kotlin入门.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/META-INF/Kotlin入门.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Button.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Father1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Father1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Grandson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Grandson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Object.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Object.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Son.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Son.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Song.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/View.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/_4_类委托与属性委托byKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/_4_类委托与属性委托byKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/_6_扩展函数_扩展属性Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/_6_扩展函数_扩展属性Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/_8_伴生对象Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/_8_伴生对象Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/进阶/4.类委托与属性委托by.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/进阶/4.类委托与属性委托by.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/进阶/6.扩展函数、扩展属性.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/进阶/6.扩展函数、扩展属性.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/进阶/8.伴生对象.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/进阶/8.伴生对象.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/RepoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/RepoKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Button.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Object.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Parent$Son1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Parent$Son1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Parent$Son2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Parent$Son2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Parent$Son3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Parent$Son3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Parent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Son4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Son4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Song.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/_11_密封类Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/_6_扩展函数_扩展属性Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/filter实战/Repo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/高阶函数实战/Repo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/filter实战/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/高阶函数实战/Filter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/filter实战/repo.data" beforeDir="false" afterPath="$PROJECT_DIR$/src/高阶函数实战/repo.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/进阶/3.中缀表达式infix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsl领域特定语言/3.中缀表达式infix.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/进阶/6.扩展函数、扩展属性.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsl领域特定语言/6.扩展函数、扩展属性.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/高阶/3.闭包.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/高阶/3.闭包.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +67,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/dsl领域特定语言" />
       <recent name="$PROJECT_DIR$/src/进阶" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/基础" />
@@ -70,67 +76,67 @@
       <recent name="$PROJECT_DIR$/src/项目实战" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.图片处理Kt">
-    <configuration name="函数式编程入门1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin._3_中缀表达式infixKt">
+    <configuration name="FilterKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin入门" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="函数式编程.函数式编程入门1Kt" />
+      <option name="MAIN_CLASS_NAME" value="高阶函数实战.FilterKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="图片处理Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Map函数Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin入门" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="进阶.图片处理Kt" />
+      <option name="MAIN_CLASS_NAME" value="高阶函数实战.Map函数Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_5_延迟加载by_lazyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="MinBy和anyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin入门" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="进阶._5_延迟加载by_lazyKt" />
+      <option name="MAIN_CLASS_NAME" value="高阶函数实战.MinBy和anyKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_6_扩展函数_扩展属性Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="_3_闭包Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin入门" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="进阶._6_扩展函数_扩展属性Kt" />
+      <option name="MAIN_CLASS_NAME" value="高阶._3_闭包Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_8_伴生对象Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="_3_中缀表达式infixKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin入门" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="进阶._8_伴生对象Kt" />
+      <option name="MAIN_CLASS_NAME" value="dsl领域特定语言._3_中缀表达式infixKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.图片处理Kt" />
-        <item itemvalue="Kotlin.函数式编程入门1Kt" />
-        <item itemvalue="Kotlin._8_伴生对象Kt" />
-        <item itemvalue="Kotlin._6_扩展函数_扩展属性Kt" />
-        <item itemvalue="Kotlin._5_延迟加载by_lazyKt" />
+        <item itemvalue="Kotlin._3_中缀表达式infixKt" />
+        <item itemvalue="Kotlin._3_闭包Kt" />
+        <item itemvalue="Kotlin.MinBy和anyKt" />
+        <item itemvalue="Kotlin.Map函数Kt" />
+        <item itemvalue="Kotlin.FilterKt" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +167,7 @@
       <workItem from="1583460512262" duration="377000" />
       <workItem from="1583462364432" duration="895000" />
       <workItem from="1583641023090" duration="591000" />
-      <workItem from="1583663171064" duration="30737000" />
+      <workItem from="1583663171064" duration="35604000" />
     </task>
     <task id="LOCAL-00001" summary="modify README.md file">
       <created>1583460580062</created>
@@ -212,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583836650004</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add section ：seal">
+      <created>1583890880587</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583890880587</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,46 +252,46 @@
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
     <state x="1311" y="312" key="#com.intellij.ide.util.MemberChooser/0.23.2048.1129@0.23.2048.1129" timestamp="1583830854919" />
-    <state x="225" y="234" key="CommitChangelistDialog2" timestamp="1583836649631">
+    <state x="1122" y="245" key="CommitChangelistDialog2" timestamp="1583890880234">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state x="225" y="234" key="CommitChangelistDialog2/0.23.2048.1129@0.23.2048.1129" timestamp="1583836649631" />
+    <state x="1122" y="245" key="CommitChangelistDialog2/0.23.2048.1129@0.23.2048.1129" timestamp="1583890880234" />
     <state width="422" height="466" key="DebuggerActiveHint" timestamp="1583289650765">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
     <state width="422" height="466" key="DebuggerActiveHint/0.23.2048.1129@0.23.2048.1129" timestamp="1583289650765" />
-    <state width="1186" height="269" key="GridCell.Tab.0.bottom" timestamp="1583890617729">
+    <state width="1186" height="134" key="GridCell.Tab.0.bottom" timestamp="1583896229842">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state width="1186" height="269" key="GridCell.Tab.0.bottom/0.23.2048.1129@0.23.2048.1129" timestamp="1583890617729" />
-    <state width="1186" height="269" key="GridCell.Tab.0.center" timestamp="1583890617728">
+    <state width="1186" height="134" key="GridCell.Tab.0.bottom/0.23.2048.1129@0.23.2048.1129" timestamp="1583896229842" />
+    <state width="1186" height="134" key="GridCell.Tab.0.center" timestamp="1583896229841">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state width="1186" height="269" key="GridCell.Tab.0.center/0.23.2048.1129@0.23.2048.1129" timestamp="1583890617728" />
-    <state width="1186" height="269" key="GridCell.Tab.0.left" timestamp="1583890617727">
+    <state width="1186" height="134" key="GridCell.Tab.0.center/0.23.2048.1129@0.23.2048.1129" timestamp="1583896229841" />
+    <state width="1186" height="134" key="GridCell.Tab.0.left" timestamp="1583896229840">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state width="1186" height="269" key="GridCell.Tab.0.left/0.23.2048.1129@0.23.2048.1129" timestamp="1583890617727" />
-    <state width="1186" height="269" key="GridCell.Tab.0.right" timestamp="1583890617728">
+    <state width="1186" height="134" key="GridCell.Tab.0.left/0.23.2048.1129@0.23.2048.1129" timestamp="1583896229840" />
+    <state width="1186" height="134" key="GridCell.Tab.0.right" timestamp="1583896229841">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state width="1186" height="269" key="GridCell.Tab.0.right/0.23.2048.1129@0.23.2048.1129" timestamp="1583890617728" />
-    <state width="1186" height="299" key="GridCell.Tab.1.bottom" timestamp="1583846046796">
+    <state width="1186" height="134" key="GridCell.Tab.0.right/0.23.2048.1129@0.23.2048.1129" timestamp="1583896229841" />
+    <state width="1186" height="299" key="GridCell.Tab.1.bottom" timestamp="1583893174020">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state width="1186" height="299" key="GridCell.Tab.1.bottom/0.23.2048.1129@0.23.2048.1129" timestamp="1583846046796" />
-    <state width="1186" height="299" key="GridCell.Tab.1.center" timestamp="1583846046795">
+    <state width="1186" height="299" key="GridCell.Tab.1.bottom/0.23.2048.1129@0.23.2048.1129" timestamp="1583893174020" />
+    <state width="1186" height="299" key="GridCell.Tab.1.center" timestamp="1583893174019">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state width="1186" height="299" key="GridCell.Tab.1.center/0.23.2048.1129@0.23.2048.1129" timestamp="1583846046795" />
-    <state width="1186" height="299" key="GridCell.Tab.1.left" timestamp="1583846046795">
+    <state width="1186" height="299" key="GridCell.Tab.1.center/0.23.2048.1129@0.23.2048.1129" timestamp="1583893174019" />
+    <state width="1186" height="299" key="GridCell.Tab.1.left" timestamp="1583893174018">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state width="1186" height="299" key="GridCell.Tab.1.left/0.23.2048.1129@0.23.2048.1129" timestamp="1583846046795" />
-    <state width="1186" height="299" key="GridCell.Tab.1.right" timestamp="1583846046796">
+    <state width="1186" height="299" key="GridCell.Tab.1.left/0.23.2048.1129@0.23.2048.1129" timestamp="1583893174018" />
+    <state width="1186" height="299" key="GridCell.Tab.1.right" timestamp="1583893174019">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state width="1186" height="299" key="GridCell.Tab.1.right/0.23.2048.1129@0.23.2048.1129" timestamp="1583846046796" />
+    <state width="1186" height="299" key="GridCell.Tab.1.right/0.23.2048.1129@0.23.2048.1129" timestamp="1583893174019" />
     <state x="1209" y="305" key="RollbackChangesDialog" timestamp="1583763657932">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
@@ -287,10 +300,10 @@
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
     <state x="939" y="226" key="SettingsEditor/0.23.2048.1129@0.23.2048.1129" timestamp="1583763111230" />
-    <state x="1034" y="329" key="Vcs.Push.Dialog.v2" timestamp="1583816619775">
+    <state x="1034" y="329" key="Vcs.Push.Dialog.v2" timestamp="1583890882648">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state x="1034" y="329" key="Vcs.Push.Dialog.v2/0.23.2048.1129@0.23.2048.1129" timestamp="1583816619775" />
+    <state x="1034" y="329" key="Vcs.Push.Dialog.v2/0.23.2048.1129@0.23.2048.1129" timestamp="1583890882648" />
     <state x="1197" y="422" key="com.intellij.ide.util.TipDialog" timestamp="1583458921805">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
