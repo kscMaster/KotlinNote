@@ -10,8 +10,8 @@ class BeanData {
 }
 
 fun main() {
-    BeanData.age
-    BeanData.InnerClass.age
+    println(BeanData.age)
+    println(BeanData.InnerClass.age)
     BeanData.sayHello()
     val bd = BeanData()
     bd.name

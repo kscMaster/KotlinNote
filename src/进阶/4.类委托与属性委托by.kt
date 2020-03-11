@@ -26,6 +26,10 @@ fun main() {
     val grandson = Grandson()
     grandson.money = 100
     grandson.showMoney()
+
+    val shmz = 少数民族()
+    shmz.score = 450
+    shmz.showScore()
 }
 
 /*  属性委托  */
@@ -41,4 +45,22 @@ class Father1 {
         this.money = i
     }
     var money: Int = 0
+}
+
+// 少数民族高考加分
+class 少数民族
+{
+    var score : Int by 教育局()
+    fun showScore() = println(score)
+}
+class 教育局()
+{
+    var score = 0
+    operator fun getValue(少数民族: 少数民族, property: KProperty<*>): Int {
+        return score + 20
+    }
+
+    operator fun setValue(少数民族: 少数民族, property: KProperty<*>, i: Int) {
+        score = i
+    }
 }
