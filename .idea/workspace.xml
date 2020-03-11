@@ -2,29 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a79b31b-b989-4365-992a-e5232f9a665c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/高阶函数实战/map函数.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/高阶函数实战/minBy和any.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/META-INF/Kotlin入门.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/META-INF/Kotlin入门.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/RepoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/RepoKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Button.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Object.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Parent$Son1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Parent$Son1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Parent$Son2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Parent$Son2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Parent$Son3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Parent$Son3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Son4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Son4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Song.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/View.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/_11_密封类Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/_6_扩展函数_扩展属性Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filter实战/Repo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/高阶函数实战/Repo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filter实战/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/高阶函数实战/Filter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filter实战/repo.data" beforeDir="false" afterPath="$PROJECT_DIR$/src/高阶函数实战/repo.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/进阶/3.中缀表达式infix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsl领域特定语言/3.中缀表达式infix.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/进阶/6.扩展函数、扩展属性.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsl领域特定语言/6.扩展函数、扩展属性.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/高阶/3.闭包.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/高阶/3.闭包.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/Welcome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/进阶/_3_中缀表达式infixKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/高阶/_3_闭包Kt$close$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin入门/高阶/_3_闭包Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin入门/高阶/_3_闭包Kt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +150,7 @@
       <workItem from="1583460512262" duration="377000" />
       <workItem from="1583462364432" duration="895000" />
       <workItem from="1583641023090" duration="591000" />
-      <workItem from="1583663171064" duration="35604000" />
+      <workItem from="1583663171064" duration="36596000" />
     </task>
     <task id="LOCAL-00001" summary="modify README.md file">
       <created>1583460580062</created>
@@ -225,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583890880587</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add section ：seal">
+      <created>1583900545084</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583900545084</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,10 +242,10 @@
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
     <state x="1311" y="312" key="#com.intellij.ide.util.MemberChooser/0.23.2048.1129@0.23.2048.1129" timestamp="1583830854919" />
-    <state x="1122" y="245" key="CommitChangelistDialog2" timestamp="1583890880234">
+    <state x="1122" y="245" key="CommitChangelistDialog2" timestamp="1583900544804">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state x="1122" y="245" key="CommitChangelistDialog2/0.23.2048.1129@0.23.2048.1129" timestamp="1583890880234" />
+    <state x="1122" y="245" key="CommitChangelistDialog2/0.23.2048.1129@0.23.2048.1129" timestamp="1583900544804" />
     <state width="422" height="466" key="DebuggerActiveHint" timestamp="1583289650765">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
@@ -300,10 +290,10 @@
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
     <state x="939" y="226" key="SettingsEditor/0.23.2048.1129@0.23.2048.1129" timestamp="1583763111230" />
-    <state x="1034" y="329" key="Vcs.Push.Dialog.v2" timestamp="1583890882648">
+    <state x="1034" y="329" key="Vcs.Push.Dialog.v2" timestamp="1583900547968">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state x="1034" y="329" key="Vcs.Push.Dialog.v2/0.23.2048.1129@0.23.2048.1129" timestamp="1583890882648" />
+    <state x="1034" y="329" key="Vcs.Push.Dialog.v2/0.23.2048.1129@0.23.2048.1129" timestamp="1583900547968" />
     <state x="1197" y="422" key="com.intellij.ide.util.TipDialog" timestamp="1583458921805">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
